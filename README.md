@@ -1,65 +1,35 @@
-# dgl README
+# DGL Syntax Highlighting for Visual Studio Code
 
-This is the README for your extension "dgl". After writing up a brief description, we recommend including the following sections.
+This extension provides syntax highlighting for `.dgl` files written in **DiaLogUE** language.
+
+## About
+
+`.dgl` files are plain text dialogue scripts designed for use with a custom **Dialogue Plugin** for Unreal Engine (currently in development). This plugin parses `.dgl` text files following the DiaLogUE language rules and converts them into DataAssets. These DataAssets can then be utilized within Unreal Engine's dialogue system to create interactive narratives.
+
+This syntax highlighting makes editing `.dgl` files easier by visually distinguishing keywords, strings, comments, speaker names, and numbers.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Highlights DiaLogUE language keywords such as `[choice]`, `[branch]`, `[set]`, `[condition]`, `[goto]`, `[summary]`, and `[fork]`.
+- Highlights speaker names before dialogue lines.
+- Highlights strings, comments (lines starting with `#`), and numeric literals.
+- Supports the `.dgl` file extension.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Install this extension from the VS Code Marketplace (if published) or
+2. Download the `.vsix` package and install via **Extensions: Install from VSIX...** in Visual Studio Code.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Simply open `.dgl` files in Visual Studio Code. The syntax highlighting will be applied automatically, making it easier to write and maintain your dialogue scripts.
 
 ---
 
-## Working with Markdown
+Created for the **DiaLogUE** Unreal Engine dialogue plugin to improve the authoring experience.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+---
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+If you find any issues or want to contribute, please open an issue or pull request on the repository.
 
 **Enjoy!**

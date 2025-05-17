@@ -3,17 +3,29 @@
 	"name": "DiaLogUE",
 	"patterns": [
 		{
+			"include": "#constants"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#speakername"
 		}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.dgl",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\[(choice|branch|set|condition|goto|summary)(?=\\s|\\])"
 			}]
 		},
 		"strings": {
@@ -24,6 +36,42 @@
 				{
 					"name": "constant.character.escape.dgl",
 					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"name": "comment.line.dgl",
+			"patterns": [
+				{
+					"name": "comment.line.number-sign.dgl",
+					"match": "#.*$"
+				}
+			]
+		},
+		"constants": {
+			"name": "constants.charcter.escape.dgl",
+			"patterns": [
+				{
+					"name": "constant.language",
+					"match": "\\b(true|false)\\b"
+				}
+			]
+		},
+		"numbers": {
+			"name": "constants.charcter.escape.dgl",
+			"patterns": [
+				{
+					"name": "constant.language",
+					"match": "\\b\\d+(\\.\\d+)?\\b"
+				}
+			]
+		},
+		"speakername": {
+			"name": "entity.speaker.name.dgl",
+			"patterns": [
+				{
+					"name": "constant.numeric",
+					"match": "^[A-Za-z0-9_]+(?=:\\s)\\b"
 				}
 			]
 		}

@@ -1,8 +1,9 @@
 {
-  "name": "dgl",
-  "displayName": "dgl-syntax",
+  "name": "dialogue-synax",
+  "displayName": "DiaLogUE Syntax Highlighting",
   "description": "Syntax highlighting for .dgl dialogue files",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "wortback",
   "engines": {
     "vscode": "^1.100.0"
   },
@@ -12,12 +13,12 @@
   "contributes": {
     "languages": [{
       "id": "dgl",
-      "aliases": ["DiaLogUE", "dgl"],
+      "aliases": ["DiaLogUE", "dgl", "DGL"],
       "extensions": [".dgl"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
-      "language": "dgl",
+      "language": "DiaLogUE",
       "scopeName": "source.dgl",
       "path": "./syntaxes/dgl.tmLanguage.json"
     }]
