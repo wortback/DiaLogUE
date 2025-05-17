@@ -4,7 +4,7 @@ This extension provides syntax highlighting for `.dgl` files written in **DiaLog
 
 ## About
 
-`.dgl` files are plain text dialogue scripts designed for use with a custom **Dialogue Plugin** for Unreal Engine (currently in development). This plugin parses `.dgl` text files following the DiaLogUE language rules and converts them into DataAssets. These DataAssets can then be utilized within Unreal Engine's dialogue system to create interactive narratives.
+`.dgl` files are plain text dialogue scripts designed for use with a custom **Dialogue Plugin** for Unreal Engine (currently in development). This plugin parses `.dgl` text files following the DiaLogUE language rules and converts them into DataAssets. These DataAssets can then be utilised within Unreal Engine's dialogue system to create interactive narratives.
 
 This syntax highlighting makes editing `.dgl` files easier by visually distinguishing keywords, strings, comments, speaker names, and numbers.
 
@@ -17,12 +17,12 @@ This syntax highlighting makes editing `.dgl` files easier by visually distingui
 
 ## Installation
 
-1. Install this extension from the VS Code Marketplace (if published) or
-2. Download the `.vsix` package and install via **Extensions: Install from VSIX...** in Visual Studio Code.
+1. Switch to **packages** branch in this repository
+2. Download the desired version `.vsix` package and install via **Extensions: Install from VSIX...** in Visual Studio Code.
 
 ## Usage
 
-Simply open `.dgl` files in Visual Studio Code. The syntax highlighting will be applied automatically, making it easier to write and maintain your dialogue scripts.
+Simply open `.dgl` files in Visual Studio Code. The syntax highlighting will be applied automatically, making writing and maintaining your dialogue scripts easier.
 
 ---
 
