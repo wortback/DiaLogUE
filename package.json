@@ -1,18 +1,23 @@
 {
-  "name": "dialogue-synax",
+  "name": "dialogue-syntax-highlighting",
   "displayName": "DiaLogUE Syntax Highlighting",
   "description": "Syntax highlighting for .dgl dialogue files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "wortback",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.100.0"
   },
   "categories": [
     "Programming Languages"
   ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/wortback/DiaLogUE"
+  },
   "contributes": {
     "languages": [{
-      "id": "dgl",
+      "id": "DiaLogUE",
       "aliases": ["DiaLogUE", "dgl", "DGL"],
       "extensions": [".dgl"],
       "configuration": "./language-configuration.json"
