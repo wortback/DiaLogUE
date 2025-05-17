@@ -1,0 +1,25 @@
+{
+  "name": "dgl",
+  "displayName": "dgl-syntax",
+  "description": "Syntax highlighting for .dgl dialogue files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "dgl",
+      "aliases": ["DiaLogUE", "dgl"],
+      "extensions": [".dgl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "dgl",
+      "scopeName": "source.dgl",
+      "path": "./syntaxes/dgl.tmLanguage.json"
+    }]
+  }
+}
