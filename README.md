@@ -26,7 +26,7 @@ Simply open `.dgl` files in Visual Studio Code. The syntax highlighting will be 
 
 ---
 
-Created for the **DiaLogUE** Unreal Engine dialogue plugin to improve the authoring experience.
+Created for the **DiaLogUE** Unreal Engine dialogue plugin to improve the authoring experience. Link: https://github.com/wortback/DialogueSystem
 
 ---
 
