@@ -10,7 +10,7 @@ This syntax highlighting makes editing `.dgl` files easier by visually distingui
 
 ## Features
 
-- Highlights DiaLogUE language keywords such as `[choice]`, `[branch]`, `[set]`, `[condition]`, `[goto]`, `[summary]`, and `[fork]`.
+- Highlights DiaLogUE language keywords such as `[choice]`, `[branch]`, `[set]`, `[condition]`, `[goto]`, `[if]`, and `[else]`.
 - Highlights speaker names before dialogue lines.
 - Highlights strings, comments (lines starting with `#`), and numeric literals.
 - Supports the `.dgl` file extension.
